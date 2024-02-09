@@ -482,30 +482,42 @@ export const coins: Coin[] = [
       // Add other social media links here...
     ],
   },
- // {
- //   coinLogo: "https://gateway.pinit.io/ipfs/QmapGPdxGPYedwWMiaiLRkh6HKxNxRg44U3rVGGjhK7wcn/0",
- //   tokenName: "bozi22",
- //   tokenTicker: "$bozi",
- //   tokenAmount: "1",
- //   tick: "bozi",
- //   decimals: 9,
- //   nftAmount: "1",
- //   nftToTokenSwapAmount: 1,
-//    tokenToNftSwapAmount: 1,
- //   tokenDescription: "This is a test 2022 for purpose of playing with inscriptions.",
- //   bridgeContract: "fZLwuMQySoC3HdiSMcrJgQenHWcbihDpTvTDooyrHWd",
- //   tokenContract: "5YDreBBuAFgtqrUpXbfGfBck6cz4BBHDzySi9w8gvUFq",
- //   isToken22: true,
- //   taxBPS: 0,
+  {
+    coinLogo: "https://d3jhw9qabh9uvj.cloudfront.net/DxTNzZzw1SLDpRsruww6sRtf11khVNARJShjKohUVVxM_lg",
+     tokenName: "babytoly",
+     tokenTicker: "$babytoly",
+     tokenAmount: "1000",
+      tick: "babytoly",
+      decimals: 9,
+      nftAmount: "1",
+      nftToTokenSwapAmount: 1,
+      tokenToNftSwapAmount: 1000,
+      tokenDescription: "The First Fair Launched SPL22.",
+      bridgeContract: "Fvv8e8CWNT64ynee4Bv9HC9wB8oZ7Y7C8T3kWKE7swK4",
+      tokenContract: "GXzmJGXafQYQeq43fd7bzwZjSmGtChstkAvT4tWo63s6",
+      isToken22: true,
+      taxBPS: 0,
     // Ensure a marketplace link is last in the social media list
-//    socialMediaLinks: [
- //     {
-  //      name: "Tensor",
- //       url: "#",
-  //      icon: <TensorIcon />,
-  //    },
-      // Add other social media links here...
-  //  ],
+    socialMediaLinks: [
+      {
+  name: "X",
+        url: "https://twitter.com/babytoly2022",
+        icon: <TwitterIcon />,
+      },
+      {
+        name: "Telegram",
+        url: "https://t.me/babytoly2022",
+        icon: <TelegramIcon />,
+      },
+      {
+        name: "Tensor",
+        url: "https://www.tensor.trade/trade/babytoly_spl20",
+        icon: <TensorIcon />,
+      },
+      {
+        name: "Solsniper",
+        url: "https://www.sniper.xyz/collection/babytoly",
+        icon: <SolsniperIcon />,
  // },
   // Add other coins
 ]
